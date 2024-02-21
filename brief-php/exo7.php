@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Éléments sans doublons dans un tableau</title>
-</head>
-<body>
+
     <h1>Éléments sans doublons dans un tableau</h1>
 
     <?php
@@ -29,8 +22,6 @@
     $resultat = elementsSansDoublons($monTableau);
 
     // Afficher les éléments sans doublons
-    echo "<p>Éléments sans doublons : " . implode(", ", $resultat) . "</p>";
+    echo "Éléments sans doublons : " . implode(", ", $resultat);
     ?>
 
-</body>
-</html>

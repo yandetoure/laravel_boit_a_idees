@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Éléments communs à deux tableaux d'entiers</title>
-</head>
-<body>
+
     <h1>Éléments communs à deux tableaux d'entiers</h1>
 
     <?php
@@ -29,8 +22,7 @@
     $resultat = trouverElementsCommuns($tableau1, $tableau2);
 
     // Afficher les éléments communs
-    echo "<p>Les éléments communs sont : " . implode(", ", $resultat) . "</p>";
+    echo "Les éléments communs sont : " . implode(", ", $resultat);
     ?>
 
-</body>
-</html>
+
