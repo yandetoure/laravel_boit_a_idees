@@ -1,6 +1,4 @@
 
-    <h1>Éléments communs à deux tableaux d'entiers</h1>
-
     <?php
     // Fonction pour trouver les éléments communs à deux tableaux
     function trouverElementsCommuns($tableau1, $tableau2) {
